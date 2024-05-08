@@ -3,19 +3,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/styles.css">
     <title>Sinh</title>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            
-            const words = ["Project", "Melancholy", "Grief", "Despair", "Desolation", "Heartache", "Woe", "Misery", "Lament"];
+<style>
+    /* Import the Konkhmer Sleokchher font */
+    @import url('https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap');
 
-          
-            const randomIndex = Math.floor(Math.random() * words.length);
+    /* Apply the Konkhmer Sleokchher font to the desired elements */
+    .konkhmer-sleokchher-regular {
+        font-family: "Konkhmer Sleokchher", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+</style>
 
-            // Set the text content of the h2 element
-            const projectName = document.getElementById("project-name");
-            projectName.textContent = "Sinh " + words[randomIndex];
-        });
-    </script>
 </head>
 <body>
             <audio id="mey" controls autoplay>
@@ -24,7 +23,8 @@
     <canvas id="galaxy"></canvas>
     <div class="login-container">
             <form class="login-form" action="#" method="post">
-            <h2 id="project-name"></h2>
+            <h1 id="project-name-off" class="konkhmer-sleokchher-regular">KDMV</h1>
+
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username">
@@ -37,7 +37,7 @@
             
         </form>
         <div class="copy-right">© 2024<i><b><span style="color:blue"> Yan Sinh</span></b></i>. All rights reserved.  <br><p>	</p><div id="sinh">
-        	Living a life where hope is a rare visitor. <p> <span style="color:red">NOTE</span>: I ❤ YOU 😁<span></p>
+        	<div id="mey1" class="konkhmer-sleokchher-regular">កើត​មក​ដើម្បី​សម្ដែង មិន​គួរ​ឲ្យ​ចាប់​អារម្មណ៍។</div> <p> <span style="color:red">BIO</span>: I LOVE YOU 😁<span></p>
         </div><p></p></div>
         
       
