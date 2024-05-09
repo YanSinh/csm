@@ -1,17 +1,17 @@
-/* Define the Khmer Hacker font */
+
 @font-face {
     font-family: 'Konkhmer Sleokchher';
     src: url('font/meycute.ttf') format('truetype');
 }
 
-/* Apply the Khmer Hacker font to the h2 element */
+
 h2 {
     ont-family: "Konkhmer Sleokchher", system-ui;
-    font-weight: normal; /* Adjust font weight as needed */
-    font-size: 24px; /* Adjust font size as needed */
+    font-weight: normal; 
+    font-size: 24px; 
 }
 
-/* Your existing CSS continues below */
+
 
 body, html {
     margin: 0;
@@ -83,9 +83,10 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-#mey1{
+#mey1{ 
      font-size: 14px;
 }
+#crush{ display: none;}
 #sinh {
     font-size: 10px;
     color: black;
