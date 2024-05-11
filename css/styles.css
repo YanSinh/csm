@@ -1,17 +1,13 @@
-
 @font-face {
     font-family: 'Konkhmer Sleokchher';
     src: url('font/meycute.ttf') format('truetype');
 }
 
-
 h2 {
-    ont-family: "Konkhmer Sleokchher", system-ui;
+    font-family: "Konkhmer Sleokchher", system-ui;
     font-weight: normal; 
     font-size: 24px; 
 }
-
-
 
 body, html {
     margin: 0;
@@ -83,10 +79,15 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-#mey1{ 
-     font-size: 14px;
+
+#mey1 { 
+    font-size: 14px;
 }
-#crush{ display: none;}
+
+#crush {
+    display: none;
+}
+
 #sinh {
     font-size: 10px;
     color: black;
@@ -103,6 +104,27 @@ button:hover {
     transform: translateX(-50%, -50%);
     font-size: 11px;
     color: #666666;
+}
+
+@media (max-width: 767px) {
+    .alert {
+        position: fixed;
+        padding: 15px;
+        width: calc(100% - 40px);
+        max-width: 280px; 
+        bottom: 60px; 
+        left: 50%;
+        transform: translateX(-50%); 
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        color: #fff;
+    }
+
+    .alert-danger {
+        color: #fff;
+        background-color: #f91563
+    }
 }
 
 @media (min-width: 768px) {
@@ -124,19 +146,22 @@ button:hover {
         left: 100%;
         transform: translateX(11em);
     }
-}
-.alert {
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-}
 
-.alert-danger {
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
+    .alert {
+        position: fixed;
+        padding: 15px;
+        width: 26em;
+        bottom: 0%;
+        left: 10%;
+        transform: translateX(0em);
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        color: #fff;
+    }
+
+    .alert-danger {
+        color: #fff;
+        background-color: #f91563;
+    }
 }
