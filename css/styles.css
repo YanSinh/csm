@@ -103,7 +103,7 @@ button:hover {
     left: 50%;
     transform: translateX(-50%, -50%);
     font-size: 11px;
-    color: #27a83dde;
+    color: #030303de;
 }
 
 @media (max-width: 767px) {
