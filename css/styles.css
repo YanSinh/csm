@@ -33,10 +33,10 @@ canvas {
     width: 19em;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255 255 255 / 55%);
     border-radius: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgb(232 21 222 / 77%);
+    border: 1px solid #ff1de6;
 }
 
 .login-form {
@@ -61,7 +61,7 @@ canvas {
 .form-group input {
     width: 21em;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #4b1681;
     border-radius: 10px;
 }
 
@@ -71,13 +71,13 @@ button {
     background-color: #007bff;
     border: none;
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s linear;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #90137c;
 }
 
 #mey1 { 
@@ -103,7 +103,7 @@ button:hover {
     left: 50%;
     transform: translateX(-50%, -50%);
     font-size: 11px;
-    color: #666666;
+    color: #27a83dde;
 }
 
 @media (max-width: 767px) {
@@ -116,7 +116,7 @@ button:hover {
         left: 50%;
         transform: translateX(-50%); 
         margin-bottom: 20px;
-        border: 1px solid transparent;
+        border: 1px solid red;
         border-radius: 4px;
         color: #fff;
     }
@@ -155,7 +155,7 @@ button:hover {
         left: 10%;
         transform: translateX(0em);
         margin-bottom: 20px;
-        border: 1px solid transparent;
+        border: 1px solid #ea42ff;
         border-radius: 4px;
         color: #fff;
     }
